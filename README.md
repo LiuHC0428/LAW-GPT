@@ -16,6 +16,7 @@
 
 
 ## 快速开始
+Coming very soon!
 
 1. 配置项目依赖环境
 
@@ -134,6 +135,7 @@ Coming soon.
 
 
 ## 模型训练
+Coming very soon!
 
 本项目训练代码采用模型并行算法，可以在最少4张3090显卡上完成对ChatGLM LoRA 16-bit的指令微调。训练命令如下
 
