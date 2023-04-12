@@ -151,7 +151,7 @@ CUDA_VISIBLE_DEIVCES=$cuda_id python train.py \
 
 ## 贡献
 
-本项目由来自上海交通大学的廖育生，刘泓呈，孟昱同三位合作开发中。
+本项目由来自上海交通大学的廖育生，刘泓呈，孟昱同三位合作开发中,指导教师为[王钰](https://mediabrain.sjtu.edu.cn/yuwang/)副教授。
 
 
 
