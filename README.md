@@ -22,12 +22,12 @@
    ```bash
    cd src
    pip install -r requirements.txt
-   其中peft需要本地安装
+   #其中peft需要本地安装
    cd peft
    pip install -e .
    ```
 
-2. 下载[https://jbox.sjtu.edu.cn/l/H14tzB](提取码：ezbd)ChatGLM-6B模型参数`pytorch_model-0000X-of-00008.bin`（ChatGLM权重参数有变化，请下载链接中的权重文件），将其放入`./model`目录下。
+2. [下载](https://jbox.sjtu.edu.cn/l/H14tzB)(提取码：ezbd)ChatGLM-6B模型参数`pytorch_model-0000X-of-00008.bin`（ChatGLM权重参数有变化，请下载链接中的权重文件），将其放入`./model`目录下。
 
 3. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
 
