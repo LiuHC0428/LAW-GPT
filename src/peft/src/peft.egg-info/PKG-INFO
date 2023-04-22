@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: peft
+Version: 0.3.0.dev0
+Summary: Parameter-Efficient Fine-Tuning (PEFT)
+Home-page: https://github.com/AGI-Edgerunners/LLM-Adapters
+Author: The AGI-Edgerunners team
+Author-email: agi.edgerunners@gmail.com
+License: Apache
+Keywords: deep learning
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7.0
+Provides-Extra: quality
+Provides-Extra: docs_specific
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE

@@ -16,18 +16,20 @@
 
 
 ## 快速开始
-Coming very soon!
 
 1. 配置项目依赖环境
 
    ```bash
    cd src
    pip install -r requirements.txt
+   其中peft需要本地安装
+   cd peft
+   pip install -e .
    ```
 
-2. [下载](https://cloud.tsinghua.edu.cn/d/fb9f16d6dc8f482596c2/)ChatGLM-6B模型参数`pytorch_model-0000X-of-00008.bin`（参考[ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)），将其放入`./model`目录下。
+2. 下载[https://jbox.sjtu.edu.cn/l/H14tzB](提取码：ezbd)ChatGLM-6B模型参数`pytorch_model-0000X-of-00008.bin`（ChatGLM权重参数有变化，请下载链接中的权重文件），将其放入`./model`目录下。
 
-3. 运行交互文件（要求单卡显存 >= 15G）
+3. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
 
    ```bash
    CUDA_VISIBLE_DEVICES=$cuda_id python ./demo.py
@@ -49,7 +51,10 @@ Coming very soon!
    因此，为了避免以上情况的发生，应合理规划好开支，按时按量偿还信用卡欠款。
    ```
 
-   
+## 训练步骤
+1. 下载训练数据集
+2. 配置好train_lora.py参数
+3. 运行train_lora.py函数（使用模型并行算法，请勿同时使用数据并行）
 
 ## 数据集构建
 
