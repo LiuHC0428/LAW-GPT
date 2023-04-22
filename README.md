@@ -27,7 +27,7 @@
    pip install -e .
    ```
 
-2. [下载](https://pan.baidu.com/s/19m0T4uPY5TdRaQsrGAmosA)(提取码：nj5h)ChatGLM-6B模型参数`pytorch_model-0000X-of-00008.bin`（ChatGLM权重参数有变化，请下载链接中的权重文件），将其放入`./model`目录下。
+2. [下载](https://pan.baidu.com/s/19m0T4uPY5TdRaQsrGAmosA)(提取码：nj5h)ChatGLM-6B模型参数（ChatGLM权重参数有变化，以及函数进行了修改，请下载全部文件），将其放入`./model`目录下。
 
 3. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
 
