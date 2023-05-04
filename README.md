@@ -114,7 +114,7 @@
 
 
 ## 模型输出样例
-更多我们模型的测试结果详见`./data/test_result.json`
+更多我们模型的测试结果详见`./data/test_result.json`以及`./data/test_result_with_retriver.json`
 <!DOCTYPE html>
 <html>
 <head>
