@@ -14,7 +14,7 @@
 本项目开源的**中文法律通用模型**由ChatGLM-6B LoRA 16-bit指令微调得到。数据集包括现有的法律问答数据集和**基于法条和真实案例指导**的self-Instruct构建的高质量法律文本问答，提高了通用语言大模型**在法律领域的表现**，提高了模型回答的可靠性和专业程度。
 
 ## 最近更新
-- <img src="https://img.shields.io/badge/Version-1.1--alpha-brightgreen">(05/04/2023): 
+- <img src="https://img.shields.io/badge/Version-1.1--alpha-brightgreen">(2023.5.04): 
 1. 回答给出法条依据，使模型回答具有可靠性。
 2. 公开训练数据集: 带有法律依据的情景问答92k   利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答
 
