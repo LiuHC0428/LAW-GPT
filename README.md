@@ -16,7 +16,8 @@
 ## 最近更新
 - <img src="https://img.shields.io/badge/Version-1.0--alpha-brightgreen">(05/04/2023): 
 1. 回答给出法条依据，使模型回答具有可靠性。
-2.公开训练数据集，1.带有法律依据的情景问答92k  2.利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答
+
+2.公开训练数据集: 带有法律依据的情景问答92k   利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答
 
 ## 快速开始
 
@@ -80,6 +81,7 @@
  
 ### 带有法律依据的情景问答92k  
 [下载](https://pan.baidu.com/s/1SaAMvejziZdvDHMh9tPL5Q)(提取码：MYTT)
+
 我们根据[中华人民共和国法律手册](https://github.com/RanKKI/LawRefBook)上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答，从而使得生成的数据集有具体的法律依据。数据格式如下
 ```json
 "question": "在某家公司中，一名员工对女同事实施了性骚扰行为，女同事向公司进行举报，但公司却没有采取必要的措施来制止这种行为。\n\n公司未采取必要措施预防和制止性骚扰，导致女同事的权益受到侵害，该公司是否需要承担责任？"
