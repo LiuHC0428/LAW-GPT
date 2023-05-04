@@ -16,7 +16,6 @@
 ## 最近更新
 - <img src="https://img.shields.io/badge/Version-1.0--alpha-brightgreen">(05/04/2023): 
 1. 回答给出法条依据，使模型回答具有可靠性。
-
 2.公开训练数据集: 带有法律依据的情景问答92k   利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答
 
 ## 快速开始
