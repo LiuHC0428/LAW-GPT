@@ -9,3 +9,5 @@ peft
 accelerate
 tensorboardX
 lion-pytorch
+faiss-gpu
+text2vec

@@ -30,15 +30,23 @@
    pip install -e .
    ```
 
-2. [下载](https://pan.baidu.com/s/19m0T4uPY5TdRaQsrGAmosA)(提取码：nj5h)ChatGLM-6B模型参数（ChatGLM权重参数有变化，以及函数进行了修改，请下载全部文件），将其放入`./model`目录下。
+2. [下载](https://pan.baidu.com/s/1FNAoCmvydsE45afqgmIp2A)(提取码：fj9d)ChatGLM-6B模型参数（ChatGLM权重参数有变化，以及函数进行了修改，请下载全部文件），将其放入`./model`目录下。
+3. [下载](https://pan.baidu.com/s/1d23uVaw0Ki6L4Qjk9brwPw)(提取码：9gal)检索模型参数，将其放入`./retriver`目录下。
+4. [下载](https://huggingface.co/shibing624/text2vec-base-chinese)text2vec-base-chinese模型参数，将其放入`./text2vec-base-chinese`目录下。
 
-3. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
+5. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
 
    ```bash
+   #demo.py为直接生成
    CUDA_VISIBLE_DEVICES=$cuda_id python ./demo.py
    ```
 
-4. 命令行交互界面实例
+   ```bash
+   #demo_r.py加入了检索功能
+   CUDA_VISIBLE_DEVICES=$cuda_id python ./demo_r.py
+   ```
+
+6. 命令行交互界面实例
 
    ```tex
    Human:
@@ -53,11 +61,6 @@
    5.失去使用信用卡的权利：如果发现自己的信用记录中存在多次逾期或其他不良记录，将会失去使用某些信用卡或贷款的机会。
    因此，为了避免以上情况的发生，应合理规划好开支，按时按量偿还信用卡欠款。
    ```
-
-## 训练步骤
-1. 下载训练数据集
-2. 配置好train_lora.py参数
-3. 运行train_lora.py函数（使用模型并行算法，请勿同时使用数据并行）
 
 ## 数据集构建
 
@@ -158,10 +161,13 @@
 
 
 ## 模型训练
-Coming very soon!
+
+### 训练步骤
+1. 下载训练数据集
+2. 配置好train_lora.py参数
+3. 运行train_lora.py函数（使用模型并行算法，请勿同时使用数据并行）
 
 本项目训练代码采用模型并行算法，可以在最少4张3090显卡上完成对ChatGLM LoRA 16-bit的指令微调。训练命令如下
-
 ```bash
 cd src
 CUDA_VISIBLE_DEIVCES=$cuda_id python train.py \
@@ -174,7 +180,7 @@ CUDA_VISIBLE_DEIVCES=$cuda_id python train.py \
 
 ## 贡献
 
-本项目由来自上海交通大学的廖育生，刘泓呈，孟昱同三位合作开发中,指导教师为[王钰](https://cmic.sjtu.edu.cn/cn/show.aspx?info_lb=75&info_id=1237&flag=35)副教授。
+本项目由来自上海交通大学的廖育生，刘泓呈，孟昱同，王宇昊四位合作开发中,指导教师为[王钰](https://cmic.sjtu.edu.cn/cn/show.aspx?info_lb=75&info_id=1237&flag=35)副教授。
 
 
 
@@ -190,7 +196,7 @@ CUDA_VISIBLE_DEIVCES=$cuda_id python train.py \
 
 ```latex
 @misc{LAWGPT-zh,
-  author={Hongcheng Liu, Yusheng Liao, Yutong Meng},
+  author={Hongcheng Liu, Yusheng Liao, Yutong Meng, Yuhao Wang},
   title = {LawGPT：中文法律对话语言模型},
   year = {2023},
   publisher = {GitHub},
