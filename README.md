@@ -73,13 +73,14 @@
 
 真实的中文律师用户问答数据，来自[CrimeKgAssitant](https://github.com/liuhuanyong/CrimeKgAssitant)收集的200k条情景对话数据。 
 
-### 利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答  [下载](https://pan.baidu.com/s/1GZ0IsGQwbiPPy-h04_eTXg)(提取码：MYTT)
+### 利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答  
+[下载](https://pan.baidu.com/s/1GZ0IsGQwbiPPy-h04_eTXg)(提取码：MYTT)
 
 利用ChatGPT根据CrimeKgAssitant的问答重新生成，使得生成的回答比原回答更详细，语言组织更规范。
  
-### 带有法律依据的情景问答92k  [下载](https://pan.baidu.com/s/1SaAMvejziZdvDHMh9tPL5Q)(提取码：MYTT)
-
-我们根据[中华人民共和国法律手册]https://github.com/RanKKI/LawRefBook上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答，从而使得生成的数据集有具体的法律依据。数据格式如下
+### 带有法律依据的情景问答92k  
+[下载](https://pan.baidu.com/s/1SaAMvejziZdvDHMh9tPL5Q)(提取码：MYTT)
+我们根据[中华人民共和国法律手册](https://github.com/RanKKI/LawRefBook)上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答，从而使得生成的数据集有具体的法律依据。数据格式如下
 ```json
 "question": "在某家公司中，一名员工对女同事实施了性骚扰行为，女同事向公司进行举报，但公司却没有采取必要的措施来制止这种行为。\n\n公司未采取必要措施预防和制止性骚扰，导致女同事的权益受到侵害，该公司是否需要承担责任？"
 "answer": "根据《社会法-妇女权益保障法》第八十条规定，“学校、用人单位违反本法规定，未采取必要措施预防和制止性骚扰，造成妇女权益受到侵害或者社会影响恶劣的，由上级机关或者主管部门责令改正；拒不改正或者情节严重的，依法对直接负责的主管人员和其他直接责任人员给予处分。”因此，该公司因为未采取必要措施预防和制止性骚扰行为，应该承担责任，并依法接受相关的处分。女同事可以向上级机关或主管部门进行申诉，要求该公司被责令改正，并对相关负责人员给予处分。"
