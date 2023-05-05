@@ -4,7 +4,7 @@
 
 # LawGPT_zh：中文法律大模型（獬豸）
 
-<img src="https://img.shields.io/badge/Version-1.1--alpha-brightgreen"> <img src="https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg"> <img src="https://img.shields.io/badge/python-3.8+-blue.svg">
+<img src="https://img.shields.io/badge/Version-1.1--alpha-brightgreen"> <img src="https://img.shields.io/badge/python-3.8+-blue.svg">
 
 
 ## 项目简介
