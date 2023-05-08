@@ -247,8 +247,6 @@ def train():
         pbar = ProgressBar(persist=True)#进度条
         pbar.attach(trainer, metric_names=["loss"])
 
-        evaluator.add_event_handler(Events.COMPLETED, lambda _: pbar.log_message("Validation: %s" % pformat(evaluator.state.metrics)))
-
 
         tb_logger = TensorboardLogger(log_dir="./tb_logs/{i}".format(i=args.title))
         #ignite库里面的函数 TensorBoard 处理程序，用于在训练和验证期间记录指标、模型/优化器参数、梯度。
