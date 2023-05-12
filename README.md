@@ -31,7 +31,7 @@
    ```
 
 2. [下载](https://pan.baidu.com/s/1FNAoCmvydsE45afqgmIp2A)(提取码：fj9d)ChatGLM-6B模型参数（ChatGLM权重参数有变化，以及函数进行了修改，请下载全部文件），将其放入`./model`目录下。
-3. [下载](https://pan.baidu.com/s/1d23uVaw0Ki6L4Qjk9brwPw)(提取码：9gal)检索模型参数，将其放入`./retriver`目录下。
+3. [下载](https://pan.baidu.com/s/1w_Jzh2Vpwq6EgQ-YlVZjag)(提取码：ymor)检索模型参数，将其放入`./retriver`目录下。
 4. [下载](https://huggingface.co/shibing624/text2vec-base-chinese)text2vec-base-chinese模型参数，将其放入`./text2vec-base-chinese`目录下。
 
 5. 运行交互文件（要求单卡显存 >= 15G）,输入new chat可以清空上下文信息
