@@ -206,7 +206,7 @@ CUDA_VISIBLE_DEIVCES=$cuda_id python train.py \
 ```latex
 @misc{LAWGPT-zh,
   author={Hongcheng Liu, Yusheng Liao, Yutong Meng, Yuhao Wang},
-  title = {LawGPT： Chinese Law Large Language Model},
+  title = {XieZhi： Chinese Law Large Language Model},
   year = {2023},
   publisher = {GitHub},
   journal = {GitHub repository},
